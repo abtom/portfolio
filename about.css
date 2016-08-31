@@ -1,0 +1,12 @@
+#golden_gate{
+	flex-shrink: 0;
+	max-width: 100%;
+	max-height: auto;
+
+}
+
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color: #D3D3D3;
+}
