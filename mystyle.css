@@ -21,17 +21,30 @@ h1{
 }
 
 .projects{
-	align: middle;
+	padding-left:20%;
+	padding-right:20%;
 }
 
 #weatherware{
-	max-width: 20%;
-	max-height: 20%;
+	max-width: 35%;
+	max-height: 35%;
 	float: right;
 }
 
 #sportify{
-	max-width: 20%;
-	max-height: 20%;
+	max-width: 35%;
+	max-height: 35%;
 	float: left;
+}
+
+#docker{
+	max-width: 35%;
+	max-height: 35%;
+	float:left;
+}
+
+#tomcat{
+	max-width: 35%;
+	max-height: 35%;
+	float:right;
 }
