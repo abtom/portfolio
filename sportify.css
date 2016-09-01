@@ -1,0 +1,18 @@
+*{
+	font-family: Garamond;
+}
+
+body{
+	background-color: #D3D3D3;
+}
+
+p{
+	padding-left: 30%;
+	padding-right:30%;
+}
+
+h1{
+	padding-left: 30%;
+	padding-right: 30%;
+	text-align: center;
+}
