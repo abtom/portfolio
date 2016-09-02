@@ -1,0 +1,28 @@
+* {
+	font-family: Garamond;
+}
+
+#golden_gate{
+	flex-shrink: 0;
+	max-width: 100%;
+	max-height: 400px;
+	height: auto;
+	width: 100%;
+
+}
+
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color: #D3D3D3;
+}
+
+p{
+	padding-left: 10%;
+	padding-right:60%;
+}
+
+h2{
+	padding-left: 10%;
+	padding-right: 60%;
+}
