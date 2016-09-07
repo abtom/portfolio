@@ -8,6 +8,10 @@ body{
 	background-color: #D3D3D3;
 }
 
+h1{
+	text-align: center;
+}
+
 ul{
 	text-align: center;
 	width: 100%;
@@ -38,9 +42,10 @@ li a {
 	background-color: #404040;
 	height: 200px;
 	font-size: 24px;
-	padding-top: 20px;
+	padding-top: 10px;
 	vertical-align: middle;
-	line-height: 90px;
+	line-height: 60px;
+	color: white;
 }
 
 
@@ -71,13 +76,6 @@ li a {
     margin: 5px;
     text-align: center;
     font-size: 30px;
-<<<<<<< HEAD
-<<<<<<< master
-    
-=======
     pointer-events: none; /*Good to know allows no interaction with text*/
->>>>>>> 4216f23 Fixed css
-=======
-    pointer-events: none; /*Good to know allows no interaction with text*/
->>>>>>> 4216f23d75938885935918d46ec6cddec0387f37
+    color: black;
 }
