@@ -71,5 +71,9 @@ li a {
     margin: 5px;
     text-align: center;
     font-size: 30px;
+<<<<<<< master
     
+=======
+    pointer-events: none; /*Good to know allows no interaction with text*/
+>>>>>>> 4216f23 Fixed css
 }
