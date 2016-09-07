@@ -43,24 +43,32 @@ li a {
 	line-height: 90px;
 }
 
-.projects{
-	position: relative;
+
+.hide_sportify{
+	display:none;
 }
 
-#weatherware{
-	display:block;
-	width: 35%;
-	max-width: 200px;
-	height: auto;
-	margin-left: auto;
-	margin-right: auto;
+.hide_weatherware{
+	display:none;
 }
 
-#sportify{
-	display:block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 35%;
-	max-width: 200px;
-	height: auto;
+.image-wrapper {
+	display: block;
+    position: relative;
+    width: 40%;
+    max-width: 300px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.image-wrapper p {
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 30px;
+    width: 218px;
+    color: #FFF;
+    margin: 5px;
+    text-align: center;
+    font-size: 30px;
 }
