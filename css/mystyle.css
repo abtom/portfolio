@@ -57,6 +57,10 @@ li a {
 	display:none;
 }
 
+.hide_docker{
+	display:none;
+}
+
 .image-wrapper {
 	display: block;
     position: relative;

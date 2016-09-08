@@ -16,4 +16,12 @@ $(document).ready(function () {
     		$(this).stop().animate({opacity: 1}, 500);
     		$('.text_weatherware').addClass('hide_weatherware');
     });
+
+       $('#docker').hover(function(){
+        $(this).stop().animate({opacity: .4}, 200);
+    $('.text_docker').removeClass('hide_docker');
+        }, function(){
+            $(this).stop().animate({opacity: 1}, 500);
+            $('.text_docker').addClass('hide_docker');
+    });
 });
