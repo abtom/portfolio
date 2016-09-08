@@ -62,4 +62,23 @@ li a {
 
 h2{
 	padding-top: 20px;
+	color: black;
+	font-weight: bold;
+}
+
+li img{
+	display: inline-block;
+	width: 20px;
+	height: auto;
+	background-color: white;
+}
+
+.other_contact{
+	display: inline-block;
+	float: right;
+}
+
+.main_menu{
+	display: inline-block;
+	padding-left: 175px;
 }

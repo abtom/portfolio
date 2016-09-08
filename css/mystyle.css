@@ -79,3 +79,20 @@ li a {
     pointer-events: none; /*Good to know allows no interaction with text*/
     color: black;
 }
+
+li img{
+	display: inline-block;
+	width: 20px;
+	height: auto;
+	background-color: white;
+}
+
+.other_contact{
+	display: inline-block;
+	float: right;
+}
+
+.main_menu{
+	display: inline-block;
+	padding-left: 175px;
+}
