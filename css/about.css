@@ -10,10 +10,6 @@ body{
 	background-color: #D3D3D3;
 }
 
-h1{
-	text-align: center;
-}
-
 ul{
 	text-align: center;
 	width: 100%;
@@ -54,14 +50,15 @@ li a {
 
 .bottom {
 	text-align: center;
-	width: 40%;
+	width: 80%;
 	height: auto;
 	color: black;
 	margin: 0 auto;
+	font-size: 25px;
 }
 
-h2{
-	padding-top: 20px;
+.bottom h1{
+	padding-top: 30px;
 	color: black;
 	font-weight: bold;
 }
