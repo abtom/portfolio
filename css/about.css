@@ -52,12 +52,12 @@ li a {
 
 
 
-.bottom p{
-	padding-left: 10%;
-	padding-right:60%;
+.bottom {
+	text-align: center;
+	width: 40%;
+	height: auto;
 	color: black;
-	margin: 0px;
-	padding: 0px;
+	margin: 0 auto;
 }
 
 h2{
