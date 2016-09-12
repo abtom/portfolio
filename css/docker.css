@@ -70,3 +70,12 @@ li img{
 	display: inline-block;
 	padding-left: 175px;
 }
+
+.bottom {
+	text-align: center;
+	width: 80%;
+	height: auto;
+	color: black;
+	margin: 0 auto;
+	font-size: 25px;
+}

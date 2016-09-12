@@ -6,14 +6,8 @@
 
 body{
 	background-color: #D3D3D3;
-	margin-left:auto;
-	margin-right:auto;
 }
 
-p{
-	padding-left: 25%;
-	padding-right:25%;
-}
 
 h1{
 	padding-left: 30%;
@@ -21,11 +15,11 @@ h1{
 	text-align: center;
 }
 
-img{
+.bottom img{
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 20px;
-	display: block;
+	max-width: 80%;
 }
 
 ul{
@@ -79,4 +73,13 @@ li img{
 .main_menu{
 	display: inline-block;
 	padding-left: 175px;
+}
+
+.bottom {
+	text-align: center;
+	width: 80%;
+	height: auto;
+	color: black;
+	margin: 0 auto;
+	font-size: 25px;
 }
