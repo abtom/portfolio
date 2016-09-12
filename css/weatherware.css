@@ -1,6 +1,7 @@
 *{
 	font-family: Garamond;
-	font-size: 20px;
+	margin: 0;
+	padding: 0;
 }
 
 body{
@@ -25,4 +26,57 @@ img{
 	margin-right: auto;
 	margin-bottom: 20px;
 	display: block;
+}
+
+ul{
+	text-align: center;
+	width: 100%;
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	background-color: #333;
+}
+
+li{
+	display: inline-block;
+	list-style: none;
+}
+
+div.fadeIn{
+	display:none;
+}
+
+li a {
+	display: inline-block;
+	color: white;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.name{
+	text-align: center;
+	background-color: #404040;
+	height: 200px;
+	font-size: 24px;
+	padding-top: 10px;
+	vertical-align: middle;
+	line-height: 60px;
+	color: white;
+}
+
+li img{
+	display: inline-block;
+	width: 20px;
+	height: auto;
+	background-color: white;
+}
+
+.other_contact{
+	display: inline-block;
+	float: right;
+}
+
+.main_menu{
+	display: inline-block;
+	padding-left: 175px;
 }

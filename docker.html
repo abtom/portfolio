@@ -3,14 +3,33 @@
 	<head>
 		<title>Sportify</title>
 		<link rel="stylesheet" type="text/css" href="css/docker.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script type="text/javascript" src="js/portfolio.js"></script>
 	</head>
 	<body>
-		<h1>Docker Projects</h1><br>
-		
+	<ul>
+		<div class="main_menu">
+			<li><a class="home" href="index.html">About</a></li>
+			<li><a class="about" href="projects.html">Projects</a></li>
+			<li><a class= "other_projects" href="other_projects.html">Other Projects</a></li>
+		</div>
+		<div class="other_contact">
+			<li><a class="facebook" href="https://www.facebook.com/aaron.tom.796"><img src="img/facebook.png" alt="facebook_link"></a></li>
+			<li><a class="linkedin" href="https://www.linkedin.com/in/aaron-tom-842327bb
+"><img src="img/linkedin.png" alt="linkedin_link"></a></li>
+			<li><a class="github" href="https://github.com/abtom"><img src="img/github.png" alt="github_link"></a></li>
+		</div>
+	</ul>
+	<div class="name">
+		<div class="fadeIn">
+			<h1>Docker Workload Container and Registry</h1>
+		</div>
+	</div> <br> <br>
 		<h2>DB2/DSM Docker Container</h2> <br>
-			<p>The goal of this project was to make data more presentable to our customers. The first step to achieving this was getting DB2 and IBM's Data Service Manager into our container. Next we wanted to make unique instances of our Data Service Manager with user specific workloads so that it would more presentable and less cluttered when showcasing to our customers. We were able to achieve this by making a Docker container per workload.  </p> <br>
+			<p>The goal of this project was to make data more presentable to our customers. The first step to achieving this was getting IBM's DB2 and Data Service Manager into our Docker container. Next we wanted to make unique instances of our Data Service Manager with user specific workloads so that it would more presentable and less cluttered when showcasing to our customers. We were able to achieve this by making a Docker container per workload.  </p> <br>
 			<img src="img/dockerschema.png" alt="docker_schema"> <br> <br>
+			<p> UC = Use Case</p> <br>
 			<h2>Private Docker Registry</h2> <br>
-			<p>Our next goal was to make our workload containers sharable internally within IBM without being hosted by dockerhub. This means that only users within IBM and on the same network can pull and push these containers. To achieve this we kept a Docker container running in a VM called Registry 2.1, which is a container whose sole purpose is to store Docker containers. Next we had to set up certificates to allow pushing and pulling to specific ip addresses. Lastly, we mounted the folder that contains all the containers to our VM, so all containers will be backed up if our container malfunctions.</p> <br>
+			<p>Our next goal was to make our Docker containers sharable internally within IBM without being hosted by public websites such as DockerHub. This means that only users within IBM and or people within the same network can pull and push these containers. To achieve this we kept a Docker container running in a VM called Registry 2.1, which is a container whose sole purpose is to store Docker containers. Next we had to set up certificates to allow pushing and pulling to specific ip addresses. Lastly, we mounted the folder that contains all the containers to our VM, so that all our workloads will be backed up if our container malfunctions.</p> <br>
 	</body>
 </html>
